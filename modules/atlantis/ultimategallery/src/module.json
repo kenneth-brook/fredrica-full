@@ -1,0 +1,15 @@
+{
+    "name": "Ultimate Gallery",
+    "author": "Atlantis CMS",
+    "version": "1.1",
+    "adminURL": "admin\/modules\/ultimategallery",
+    "icon": "\/Module\/UltimateGallery\/Assets\/icons\/icon.png",
+    "path": "atlantis\/ultimategallery\/src",
+    "moduleNamespace": "Module\\UltimateGallery",
+    "seedNamespace": "Module\\UltimateGallery\\Seed",
+    "seeder": "\\Module\\UltimateGallery\\Seed\\UltimateGallerySeeder",
+    "provider": "Module\\UltimateGallery\\Providers\\UltimateGalleryServiceProvider",
+    "migration": "modules\/atlantis\/ultimategallery\/src\/Module\/UltimateGallery\/Migrations\/",
+    "extra": null,
+    "description": ""
+}

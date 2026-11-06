@@ -1,0 +1,103 @@
+<?php
+
+return [
+
+    'Updated' =>									'Updated',
+    'Success' =>									'Success',
+    'Done!' =>										'Done!',
+	
+	/*PAGE*/
+    'Page Created' =>								'Page :name was Created',
+    'Page Updated' =>								'Page :name was Updated',
+    'This page does not have a version in your default language' =>'This page does not have a version in your default language',
+    'Page ID not found' =>							'Page ID not found',
+    'invalid page ID' =>							'invalid page ID',
+	'Add page ID' =>								'Add page ID',
+	'Add pattern ID' =>								'Add pattern ID',
+  	'Add pattern type' =>							'Add pattern type',
+	'Pages were deleted' =>							'Pages were deleted',
+	'Pages were deactivated' =>						'Pages were deactivated',
+	'Pages were activated' =>						'Pages were activated',
+	'Page was cloned' =>							'Page was cloned',
+	'Invalid page' =>								'Invalid page',
+	'Versions were deleted' =>						'Versions were deleted',
+	'Ooops something went wrong' =>					'Ooops something went wrong',
+  	'Invalid pattern for page' =>					'Invalid pattern for page',
+  	'Pattern was removed from page' =>				'Pattern was removed from page',
+  	'Pattern was added to page' =>					'Pattern was added to page',
+  	'The pattern can not be removed from the page' =>'The pattern can not be removed from the page',
+    'Version Deleted' =>							'Version :name was Deleted',
+    'This page category is not valid' => 			'This page category is not valid',
+    'Category was created' =>						'Category :name was created',
+    'Category was edited' =>						'Category :name was edited',
+    'Category was deleted' =>						'Category :name was deleted',
+ 	'Categories were deleted' =>					'Categories were deleted',
+	'Page was restored' => 							'Page was restored',
+	'Page was deleted' => 							'Page was deleted',
+	'Pages were restored' => 						'Pages were restored',
+
+
+	/*PATTERN*/
+	'This pattern does not have a version in your default language' =>'This pattern does not have a version in your default language',
+	'This pattern is not valid' =>					'This pattern is not valid',
+	'Pattern was cloned' =>							'Pattern was cloned',
+	'Invalid pattern' =>							'Invalid pattern',
+	'Pattern was deleted' =>						'Pattern was deleted',
+	'Pattern was activated' =>						'Pattern was activated',
+	'Pattern Created' =>							'Pattern :name was created',
+	'Pattern Updated' =>							'Pattern :name was updated',
+	'Pattern was restored' => 						'Pattern was restored',
+	'Patterns were restored' => 					'Patterns were restored',
+	'Patterns were deleted' => 						'Patterns were deleted',
+	'Items were deleted' => 						'Items were deleted',
+	'Pattern was deactivated' => 						'Pattern was deactivated',
+
+
+	/*MEDIA*/
+	'was_edited' =>									':name was edited',
+	'was_updated' =>								':name was updated',
+	'was_created' =>								':name was created',
+	'was_deleted' =>								':name was deleted',
+	'This file is not valid' =>						'This file is not valid',
+	'File was updated' =>							'File was updated',
+	'Files were deleted' =>							'Files were deleted',
+	'error_media_bulk_action' =>					'Error. Please try again! Select one or more images.',
+	'The tags were successfully added' =>			'The tags were successfully added',					
+	'Please select gallery!' =>						'Please select gallery!',					
+	'File was deleted' =>							'File was deleted',					
+	'The gallery is not valid' =>					'The gallery is not valid',					
+	'Gallery created' =>							'Gallery :name was created',	
+	'Gallery was deleted' =>						'Gallery was deleted',					
+	'Galleries were deleted' =>						'Galleries were deleted',					
+	'Invalid gallery id or imgae file' =>			'Invalid gallery id or imgae file',
+	'Image was added to gallery' => 				'Image was added to gallery',
+	
+	/*MODULE*/
+	'Module deactivated' =>							'Module :name was deactivated',
+	'Module activated' =>							'Module :name was activated',
+	'Invalid module' =>								'Invalid module',
+	'Module installed' =>							':name module was installed successfully!',
+	'Unexpected error' =>							'Unexpected error',
+	'Permissions denied' =>							'Permissions denied',
+	'Keys updated' =>								'Keys updated',
+	'Resources Created Succesfully' =>				'Resources Created Succesfully',
+
+
+	/*CONFIG*/
+    'System can\'t find active theme' => 			'System can\'t find active theme',
+    'invalid_file' =>								':filename has invalid :diskname file.',
+    'invalid_path' =>								':filename has invalid :diskname path',
+    'Theme was deactivated' => 						'Theme was deactivated',
+    'Theme was activated' => 						'Theme was activated',
+    'User was created' => 							'User :name was created',
+    'User was edited' => 							'User :name was edited',
+	'User was deleted' => 							'User was deleted',
+    'Users were deleted' => 						'Users were deleted',
+    'This user is not valid' => 					'This user is not valid',
+	'This role is not valid' =>						'This role is not valid',
+	'Role was deleted' =>							'Role was deleted',
+	'Roles were deleted' =>							'Roles were deleted',
+	'Role was created' => 							'Role :name was created',
+    'Role was edited' => 							'Role :name was edited',
+
+];

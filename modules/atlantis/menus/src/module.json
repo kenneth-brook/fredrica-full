@@ -1,0 +1,15 @@
+{
+    "name": "Menus",
+    "author": "Atlantis CMS",
+    "version": "1.5",
+    "adminURL": "admin\/modules\/menus",
+    "icon": "icon icon-Menu",
+    "path": "atlantis\/menus\/src",
+    "moduleNamespace": "Module\\Menus",
+    "seedNamespace": "Module\\Menus\\Seed",
+    "seeder": "\\Module\\Menus\\Seed\\MenusSeeder",
+    "provider": "Module\\Menus\\Providers\\MenusServiceProvider",
+    "migration": "modules\/atlantis\/menus\/src\/Module\/Menus\/Migrations\/",
+    "extra": null,
+    "description": "Build and manipulate navigational menus for your site."
+}

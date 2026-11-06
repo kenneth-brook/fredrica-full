@@ -1,0 +1,15 @@
+{
+    "name": "Vanity Url",
+    "author": "Atlantis CMS",
+    "version": "1.8",
+    "adminURL": "admin\/modules\/vanityurl",
+    "icon": "icon icon-Layers",
+    "path": "atlantis\/vanityurl\/src",
+    "moduleNamespace": "Module\\VanityUrl",
+    "seedNamespace": "Module\\VanityUrl\\Seed",
+    "seeder": "\\Module\\VanityUrl\\Seed\\VanityUrlSeeder",
+    "provider": "Module\\VanityUrl\\Providers\\VanityUrlServiceProvider",
+    "migration": "modules\/atlantis\/vanityurl\/src\/Module\/VanityUrl\/Migrations\/",
+    "extra": null,
+    "description": ""
+}

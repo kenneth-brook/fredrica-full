@@ -1,0 +1,15 @@
+{
+    "name": "Forms",
+    "author": "Atlantis CMS",
+    "version": "2.6",
+    "adminURL": "admin\/modules\/forms",
+    "icon": "icon icon-Files",
+    "path": "atlantis\/forms\/src",
+    "moduleNamespace": "Module\\Forms",
+    "seedNamespace": "Module\\Forms\\Seed",
+    "seeder": "\\Module\\Forms\\Seed\\FormsSeeder",
+    "provider": "Module\\Forms\\Providers\\FormsServiceProvider",
+    "migration": "modules\/atlantis\/forms\/src\/Module\/Forms\/Migrations\/",
+    "extra": null,
+    "description": "Module to help you generate web forms and embed them into pages."
+}

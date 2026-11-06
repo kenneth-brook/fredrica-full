@@ -1,0 +1,1221 @@
+
+/* LINKS */
+a {
+	color: #000;
+	text-decoration: underline;
+}
+	.contents a:hover {	
+		text-decoration: underline;
+	}
+		
+/* OL/UL */
+.contents ol {
+	list-style: decimal;
+	margin: 0 0 15px 45px;
+}
+	.contents ol li {
+		padding: 0 0 5px 10px;
+		color: #363636;
+	}	
+		
+.contents ul {
+	list-style: square;
+	list-style-image: url(/resources/media/images/li-bullet.gif);
+	margin: 0 0 15px 40px;
+}
+	.contents ul li {
+		padding: 0 0 5px 10px;
+		color: #363636;
+	}	
+	
+	/*  for blog/calendar list items to still have list bullets */	
+	.blogList ul li ul, .eventsList ul li ul {margin: 15px 35px !important;}
+	     .blogList ul li li, .blogList ul li ul, .eventsList ul li li, .eventsList ul li ul {list-style: square !important;}
+	.blogList ol li ul, .eventsList ol li ul {margin: 15px 35px !important;}
+	     .blogList ol li li, .blogList ol li ul, .eventsList ol li li, .eventsList ol li ul {list-style: decimal !important;}
+	 
+/* PARAGRAPHS */
+.contents p {
+	margin: 0 0 15px 0;
+}
+
+.contents .disclaimer { font-size: 9px; font-style: italic; margin: 50px 0px; }
+.contents .disclaimer img { -moz-box-shadow: none !important; -webkit-box-shadow: none !important; box-shadow: none !important; }
+
+#subColumn p { font-size: 11px; line-height: 15px; }
+	p[align="right"], 
+	p.right {
+		float: right;
+		margin: 0 8px 15px;
+	}	
+	p[align="left"], 
+	p.left {
+		float: left;
+		margin: 0 8px 15px;
+	}
+
+	.contents img {
+		box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+		-moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+		-webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+		margin: 5px 0px;
+	}	
+
+/* HORIZONTAL RULES */
+
+.contents hr {
+	border: 1px solid #41311B;
+	border-width: 1px 0 0 0;
+	border-collapse: collapse;
+	clear: both;
+	margin: 10px 0 15px;
+}
+
+h1, h2, h3, h4, h5, h6{ font-family: "Georgia", serif; font-style: italic;}
+
+
+
+/* GENERAL SITE HEADINGS */	
+h1 {
+	margin: 10px 0 15px;
+	font-size: 24px;
+	color: #000;
+	line-height: 1em;
+}		
+
+h1.title, h2.title{ font-size: 18px; letter-spacing: 2px; font-weight: normal; line-height: 24px; text-align: center; margin: 10px 0px; }
+	
+h2 {
+	margin: 10px 0 15px;
+	font-size: 16px;
+	color: #000;
+	line-height: 1.2em;
+	text-align: center;
+	font-weight: normal;
+}	
+
+h3 {
+	margin: 10px 0 15px;
+	font-size: 13px;
+	color: #353535;
+	line-height: 1.5em;
+}
+
+.frederica-realty-associates .contents h3 { font-size: 18px; margin: 10px 0px 0px; }
+.frederica-realty-associates1 .contents h3 { font-size: 18px; margin: 10px 0px 0px; }
+
+h4 {
+	margin: 10px 0 15px;
+	font-size: 18px;
+	color: #353535;
+	line-height: 1.2em;
+}	
+
+.frederica-realty-associates .contents h4 { font-size: 14px; margin: 0px 0px 10px; }
+.frederica-realty-associates1 .contents h4 { font-size: 14px; margin: 0px 0px 10px; }
+
+h5 {
+	margin: 10px 0 15px;
+	font-size: 16px;
+	color: #353535;
+	line-height: 1.4em;
+}	
+
+h6 {
+	margin: 10px 0 15px;
+	font-size: 14px;
+	color: #353535;
+	line-height: 1.4em;
+}	
+
+
+/* BLOG ITEM */	
+/* blog listing */		
+.blogList {
+	padding: 0 0px 50px;		
+}
+	.blogList ul {
+		margin: 0 !important;
+		padding: 0 !important;
+		list-style: none;
+		list-style-image: none;
+	}
+		.blogList ul li {
+			list-style: none;
+			list-style-image: none;
+			margin: 0px 0px 20px !important;
+			padding: 0 0 20px !important;
+			width: 640px;
+			min-height: 320px;
+			display: block;
+			clear: both;
+			border-bottom: 1px solid #000;
+		}
+		
+		.blogList ul li h2.postTitle {
+			margin: 10px 0 15px;
+			font-size: 24px;
+			color: #000;
+			line-height: 1em;
+			display: none;
+		}
+		.blogList ul li img{margin-right: 16px;}
+			.blogList ul li h2.postTitle a {	
+				color: #000;			
+				text-decoration: none;
+			}
+			
+		.blogList ul li .postInfo {
+			margin: 0 0 15px;
+			display: none;
+		}	
+			.blogList ul li .postInfo span.postDate {
+				color: #898989;
+			}
+			
+			.blogList ul li .postInfo em a {
+				color: #898989;				
+			}		
+
+			.rss { display: none; }
+			
+		.blogList .postBody h2 { font-size: 24px; text-align: left; }
+
+
+/* New Blog styles */
+
+	.blog-entry {
+		overflow: hidden;
+		margin-bottom: 42px;
+	}
+	.blog-listing .blog-entry { border-bottom: 1px solid #000; }
+	.blog-entry h2{
+		text-align: left;
+		font-size: 24px;
+		margin-bottom: 0;
+	}
+	.blog-entry h2+small{
+		display: block;
+		font-family:"Times New Roman", Georgia, Times, serif;
+		font-size:14px;
+		line-height:120%;
+		font-style:italic;
+		color:rgb(51,57,57);
+		text-align:left;
+		margin-bottom: 20px;
+	}
+	.blog-entry a.read-more {
+		display:inline-block;
+		float:right; }
+	/* .blog-entry a.read-more:after {
+		content:".";
+		display:none;
+		clear:both;
+	} */
+	.blog-entry .links {
+		margin-left: 0;
+		padding-left: 0;
+		list-style: none;
+	}
+	.blog-listing .blog-entry .links {
+		margin-top:40px;
+	}
+	.blog-entry .links li{
+		font-family:Verdana, Geneva, sans-serif;
+		font-size:13px;
+		font-weight:bold;
+		text-decoration:underline;
+		text-align:left;
+		padding-left: 0;
+	}
+	.blog-entry .links a{
+		color:rgb(51,57,57);
+		line-height:180%;
+		padding-left: 30px;
+		display: block;
+	}
+	.blog-entry .links .video{
+		background: url('/media/images/blog-entry-icons.png') 0 4px no-repeat;
+	}
+	.blog-entry .links .external{
+		background: url('/media/images/blog-entry-icons.png') 0 -50px no-repeat;
+	}
+	.blog-entry .links .pdf{
+		background: url('/media/images/blog-entry-icons.png') 4px -100px no-repeat;
+	}
+
+	.blog-entry-content {
+		float: right;
+		width: 460px;
+	}
+	.blog-entry.full-width .blog-entry-content {
+		width:inherit;
+	}
+	.blog-entry-photos {
+		float: left;
+		width: 260px;
+		margin-right: 20px;
+		margin-left:-10px;
+	}
+	.blog-entry-photos .thumb{
+		float: left;
+		margin-right: 10px;
+		margin-left:10px;
+	}
+	.blog-entry-photos .thumb:nth-child(odd){
+		margin-right: 0;
+	}
+	.blog-entry .blogvideo { width:100%; height:260px; }
+
+@media (max-width:767px ) {
+	.blog-entry-content,
+	.blog-entry-photos {
+		float: none;
+		width: 100%;
+	}
+	.blog-entry .blogvideo { width:66%; }
+}
+
+/* post detail page */
+.post h2 {
+	font-size: 30px;
+	color: #353535;
+}
+.post .postDate {
+	margin: 0 0 15px 0;
+	color: #898989;
+	font-size: 13px !important;
+}
+
+.post .postViewInfo {
+	background: none;
+	margin-bottom: 15px;
+	border: none !important;
+	padding: 0;
+	margin: 0;
+	color: #727272 !important;
+	font-size: 1.2em !important;
+}
+	.post .postViewInfo .postViewTags {
+		margin: 0 !important;
+		padding: 0 !important;
+		list-style: none;
+		list-style-image: none;
+		color: #727272;
+		font-size: 12px !important;
+		clear: both !important;
+		display: block !important;
+	}
+		.post .postViewInfo .postViewTags li {
+			float: left;
+			list-style: none;
+			list-style-image: none;
+			margin: 5px 5px 15px 0 !important;
+			padding: 0;
+		}
+			.post .postViewInfo .postViewTags li a {
+				display: block;
+				background: #f3f3f3;
+				-moz-border-radius: 5px;
+				-webkit-border-radius: 5px;
+				color: #727272;
+				border: none;
+				padding: 3px 11px;
+				text-decoration: none !important;
+			}			
+				ul.postViewTags:before { 
+					content: '' !important; 
+				}
+				ul.postViewTags li:before { 
+					content: '' !important; 
+				}
+				.post span.ieOnly {
+					display: none !important;
+				}
+		
+.post .blogBack {
+	display: none;
+}	
+		
+
+
+/* blog comments */
+.commentsHead {
+	padding-top: 35px;
+	font-size: 24px;
+	font-weight: normal;
+	clear: both;
+}
+	.commentsHead a {
+		color: #43b2e6;
+		font-size: 18px;
+	}
+	
+.comments {
+}
+	.comments dl {
+		background: transparent !important;		
+	}	
+		dt.comment {
+			background: transparent !important;
+			margin: 0 !important;
+			padding: 0 !important;
+			font-size: 14px;
+			position: relative;
+		}		
+			dt.comment .commentNumber {
+				display: none;
+			}	
+			dt.comment a {
+				font-weight: bold;
+				text-decoration: none;
+				color: #333 !important;
+			}			
+		
+		dd.comment {			
+			background: transparent !important;
+			margin: 5px 0 25px !important;
+			padding: 0 !important;
+			border-left: 4px solid #f8f8f8;
+			padding-left: 10px !important;
+		}					
+			dd.comment .commentDate {		
+				font-size: 11px;
+				color: #898989;
+			}
+	
+	
+	
+/* comments form */
+.commentsForm {
+	clear: both;
+	padding-top: 35px;
+}
+	.commentsForm .addComment {
+		font-size: 24px;
+		font-weight: normal;
+		clear: both;
+	}
+	
+	.commentsForm label {
+		font-weight: bold;
+		display: block;
+		color: #525252;
+		font-size: 13px;
+	}
+	
+	.commentsForm input, 
+	.commentsForm textarea {
+		font-size: 13px;
+		background: #fff;
+		border: 1px solid #dedede;
+		color: #3e3e3e;
+		padding: 6px 10px;
+		margin: 5px 0 10px;
+	}
+	
+	.commentsForm span {
+		font-weight: bold;
+		color: #525252;
+		font-size: 13px;
+	}
+	
+	.commentsForm img {
+		margin: 5px 0;
+		border: 1px solid #f4f4f4;
+	}
+	
+	.commentsForm input.submitComment {
+		height: 30px;
+		background: url(/resources/media/images/search-button-bg.gif) 0 0 repeat-x;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border: 1px solid #dedede;
+		color: #3e3e3e;
+		font-size: 11px;
+		text-transform: uppercase;
+		text-shadow: 1px 1px 1px #fff;
+		font-weight: bold;
+		margin-left: 2px;
+		width: 200px;
+		cursor: pointer;
+	}
+	
+	.commentsForm .note {
+		color: #898989;
+		font-size: 11px;
+	}
+		.commentsForm .note strong {
+			display: block;
+		}
+
+	
+	
+	
+	
+
+/* EVENTS / CALENDAR */
+/* event list */		
+.eventsList {
+	padding: 0;		
+}
+	.eventsList ul {
+		margin: 0 !important;
+		padding: 0 !important;
+		list-style: none;
+		list-style-image: none;
+	}
+		.eventsList ul li {
+			list-style: none;
+			list-style-image: none;
+			padding: 0 0 5px;
+		}
+		
+		.eventsList ul li a {
+			font-size: 14px;
+			line-height: 1;
+			font-weight: bold;
+			color: #43b2e6;
+		}
+			
+		.eventsList ul li .eventDate {
+			margin: 0 0 15px;
+			color: #898989;
+		}	
+
+
+/* graphic tabular events calendar */
+.eventsCalendar table {
+	border: none;
+	border-color: #fff !important;
+	width: 100%;
+	border-collapse: collapse;
+}		
+	.calendarDay, 
+	.calendarToday, 
+	.calendarDayHeader, 
+	.calendarTitle td, 
+	.calendarWeekendDay, 
+	.calendarOtherMonthDay   {
+		padding: 2px;
+		border: 1px solid #fff !important;
+		text-align: center;
+		vertical-align: top;
+		background: #fff !important;
+		padding: 5px;
+	}
+	
+	.calendarTitle td { /* top bar with current month and next/previous buttons */
+		text-align: center;
+		color: #444 !important;
+		padding: 5px 4px !important;	
+		font-weight: bold !important;
+		background: #fff !important;
+		font-size: 1.1em;
+	}	
+		.calendarNextPrevious {
+			color: #444 !important;
+			font-weight: normal;
+		}	
+			.calendarNextPrevious a {
+				color: #444 !important;
+				font-weight: normal;
+			}	
+			
+				/* next/previous arrows */	
+				.calendarNextPrevious a[title="Go to the previous month"] {
+					display: block;
+					background: url(/resources/media/images/icon-arrow-left.png) 0 0 no-repeat; 
+					text-indent: -9999px;
+					border: 0;
+				}
+				.calendarNextPrevious a[title="Go to the next month"] {
+					display: block;
+					background: url(/resources/media/images/icon-arrow-right.png) 100% 0 no-repeat; 
+					text-indent: -9999px;
+					border: 0;
+				}
+				
+			
+	.calendarDayHeader { /* m-f bar */
+		color: #657171 !important;
+		background: #fff;
+		font-weight: bold;
+		height: 1px;
+		text-align: center;
+		padding: 4px 2px;
+	}	
+		
+	.calendarToday, 
+	.calendarToday a { /* current day */
+		color: #657171 !important;
+		font-weight: bold;
+	}	
+	.calendarWeekendDay { /* weekends */
+		color: #b0b0b0 !important;
+	}	
+	.calendarDay { 
+		color: #b0b0b0 !important;
+	}	
+		.calendarDay a {
+			color: #657171 !important;
+		}		
+	.calendarOtherMonthDay { /* previous or next months days on current months calendar */
+		color: #b0b0b0;
+	}
+		
+	
+		/* changes for when calendar is in subColumn */	
+		#subColumn .calendarToday a,
+		#subColumn .calendarDay a,
+		#subColumn .eventsCalendar table br  {
+			display: none;
+		}
+
+			
+			
+			
+/* calendar detail page */
+.event h2 {
+	font-size: 30px;
+	color: #353535;
+}
+.event .eventDate {
+	margin: 0 0 15px 0;
+	color: #898989;
+	font-size: 13px;
+}
+.event .eventBack p a {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+
+/* PHOTO GALLERY */
+/* thumbnails */
+
+.realEstate .contents .photoGalleryElement { display: none; }
+
+.photoGalleryElementContainer { width: 630px; margin: 0px auto; position: relative; }
+
+.photoGalleryElementContainer .prev{
+	background: url('images/arrow-left.png') 0px -70px no-repeat;
+	width:28px;
+	height:70px;
+	border:0px;
+	left: -25px !important;
+	top: 410px !important;
+}
+.photoGalleryElementContainer .next{
+	background: url('images/arrow-right.png') 0px -70px no-repeat;
+	width:28px;
+	height:70px;
+	border:0px;
+	right: -25px !important;
+	top: 410px !important;
+}
+
+.photoGalleryElementContainer .fullImage { width: 630px; height: 400px; overflow:hidden; text-align: center; margin-bottom:10px; position: relative;}
+.photoGalleryElementContainer .fullImage img {  }
+
+.photoGalleryElementCustom { height: 70px !important; margin-bottom: 5px; display: none; }
+
+.photoGalleryElementCustom li.thumbnail {
+	font-size: 12px !important;
+	background: none !important;
+	margin: 0px 3px; !important;
+	padding: 0px;
+	float: left; 
+	height: 70px;
+}
+	.photoGalleryElementCustom li.thumbnail .thumbContents {
+		padding: 0px !important;
+		border: none !important;
+	}
+		.photoGalleryElementCustom li.thumbnail .thumbContents a { 
+			
+		}
+			.photoGalleryElementCustom li.thumbnail .thumbContents a:hover { 
+				background: none !important;
+			}
+			
+		.photoGalleryElementCustom li.thumbnail img { 
+			border: none !important;
+		}
+	
+/* thumbnails with shadows */
+.photoGalleryElement .thumbShadow {
+	font-size: 12px !important;
+	margin: 0 8px 15px 0 !important;
+}
+	.photoGalleryElement .thumbShadow .thumbContents a {
+		border: none !important;
+		text-decoration: none;
+		color: #333;
+	}
+			.photoGalleryElement .thumbShadow .thumbContents a:hover { 
+				background: none !important;
+			}
+	.photoGalleryElement .thumbShadow .thumbContents img {
+		padding: 5px !important;
+		background: #EDEDED !important;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border: none !important;
+	}
+	
+
+.photoGalleryElement .SlideShowContainer[style],
+.photoGalleryElement .SlideShowContainer .SlideShow[style],
+.photoGalleryElement .SlideShowContainer .SlideShow .SlideShowImage,
+.photoGalleryElement .SlideShowContainer .SlideShow .SlideShowImage .captionContainer[style],
+.photoGalleryElement .SlideShowContainer .SlideShow .SlideShowImage .captionContainer img { display: block; width: 100% !important; max-width: 100%; overflow: visible !important; }
+.photoGalleryElement .SlideShowContainer .SlideShow .SlideShowImage .captionContainer[style] { height: auto !important; }
+
+
+	
+	
+/* SEARCH RESULTS */
+.searchResults {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+	.searchResults li {
+		padding: 0 0 20px 0 !important;
+		margin: 0 !important;
+	}
+		.searchResults li a {
+			color: #43b2e6;		
+			font-size: 14px;
+		}
+		
+		.searchResults .searchTerm {
+			background-color: #d8d8d8 !important;
+			background-image: none !important;
+		}
+
+	
+	
+		
+	
+
+/* ICEBRRG */
+.form_container {	
+}
+
+.form_container fieldset{
+	border: 0;
+	padding: 0;
+	margin: 0;
+}	
+
+	.form_container .formTitle { font-style: italic; font-size: 18px; text-align: center; }
+	.frederica-realty-associates .form_container .formTitle { text-align: left; margin: 0px !important;  }
+	
+	.form_container .formDescription { font-style: italic; text-align: center; font-weight: bold; }
+	.frederica-realty-associates .form_container .formDescription { display: none; }
+	
+	.form_container .fieldItemInner {
+		margin: 0px;	
+		padding: 0;
+		position: relative;
+	}	
+	
+	.form_container .fieldTitle {
+		margin: 0;
+		padding: 0;
+		width: 180px;
+		font-family: "Georgia", serif;
+	}	
+	
+	.frederica-realty-associates .form_container .fieldTitle { padding: 5px !important; }
+	
+	.contact .form_container .fieldTitle { 
+		position: absolute; 
+		left: 10px;
+		top: 7px;
+		text-align: right;
+	}
+	
+		.form_container .title {
+			font-weight: bold;
+			font-style: italic;
+			font-size: 14px;
+			margin: 0;
+			padding: 0;
+		}	
+
+	/* Padding for the input boxes */
+	.contact .form_container .fieldContent { padding-left: 200px; }
+
+	/* Address label hack */
+	.form_container .fieldItem.type-address .fieldTitle .title{ line-height: 30px; }
+
+	/* Checkbox field */
+	.form_container .fieldItem.type-checkbox { padding-bottom: 10px; }
+
+	/* Handle The Yes / No field */
+	.form_container .fieldItem.type-multiplechoice { padding-bottom: 10px; }
+	.form_container .fieldItem.type-multiplechoice .fieldTitle { width: 350px; }
+	.form_container .fieldItem.type-multiplechoice .fieldContent { padding-left: 360px; }
+
+	/* Comments Field */
+	.contact .form_container .fieldItem.type-paragraph .fieldTitle { position: relative; top: 0px; left: 20px; width: auto; padding-top: 10px; text-align: left; }
+	.contact .form_container .fieldItem.type-paragraph .fieldContent { padding-left: 10px; }
+	.contact .form_container .fieldItem.type-paragraph .fieldContent textarea { width: 540px; height: 70px; }
+	.frederica-realty-associates .form_container .fieldItem.type-paragraph .fieldContent textarea { height: 50px; }
+	
+	/* Zip code */
+	.form_container .textField.zip { width: 62px !important; }
+
+	.fieldItem .fieldBlock, .fieldItem .fieldRow { padding: 0px !important; }
+
+	.fieldItem .radio-container .choice-option, .fieldItem .checkbox-container .choice-option {
+		display: inline !important;
+		position: relative;
+		padding-right: 15px !important;
+		top: 5px;
+		font-family: "Georgia", serif;
+		font-style: italic;
+	}
+
+	.choice-option label { font-weight: bold !important; }
+
+	.form_container .fieldInstructions { display: none !important; }
+	
+	.form_container label {
+		font-family: Georgia, serif; 
+		font-weight: bold;
+		font-style: italic;
+		font-size: 14px;
+		line-height: 180%;
+		margin: 0;
+		padding: 5px;
+	}
+	.form_container .required label:after {
+		display: inline;
+		content: "*";
+		color: #990000;
+		margin-left: 3px;
+	}
+	
+	.form_container input[type="text"] {
+		font-size: 13px;
+		background: #fff;
+		border: 1px solid #dedede;
+		color: #3e3e3e;
+		padding: 6px 10px;
+		margin: 2px;
+	}	
+
+/* New contact form styles */
+	.form-Contact {
+		margin-bottom: 30px;
+	}
+	.form-Contact fieldset{
+		padding: 0 0 0 200px;
+		border: 0;
+		position: relative;
+		margin: 0;
+	}
+	.form-Contact fieldset.text{
+	}
+	.form-Contact label{
+		width: 200px;
+		float: left;
+		font-family: "Georgia", serif;
+		font-weight: bold;
+		font-style: italic;
+		font-size: 14px;
+		line-height: 180%;
+		text-align: right;
+		margin: 0;
+		padding: 0 10px 0 0;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+	.form-Contact .required label:after {
+		display: inline;
+		content: "*";
+		color: #990000;
+		margin-left: 3px;
+	}
+	.form-Contact input[type="text"]{
+		width: 400px;
+		font-size: 13px;
+		background: #fff;
+		border: 1px solid #dedede;
+		color: #3e3e3e;
+		padding: 6px 10px;
+		margin: 2px;
+	}
+	.form-Contact .States,
+	.form-Contact .States+*{
+		padding-left: 0;
+	}
+
+	.form-Contact input#city[type="text"],
+	.form-Contact .States{
+		width: 156px;
+		float: left;
+	}
+	.form-Contact .States select{
+		width: 156px;
+		padding: 5px 4px;
+		border: 1px solid #dedede;
+		background: #fff !important;
+		color: #3e3e3e;
+		margin: 0px;
+		position: relative;
+		top: 2px;
+		}
+	.form-Contact .States+*,
+	.form-Contact .States+* input {
+		width: 62px;
+		float: left;
+	}
+	.States+.text+.text {
+		clear: both;
+	}
+	.form-Contact #find_us {
+		padding: 5px 4px;
+		border: 1px solid #dedede;
+		background: #fff !important;
+		color: #3e3e3e;
+		margin: 0px;
+		position: relative;
+		top: 2px;
+	}
+	.form-Contact .checkbox{
+		margin-top: 3px;
+	}
+	.form-Contact .checkbox>label,
+	.form-Contact .radio>label {
+		width: auto;
+	}
+	.form-Contact .checkbox:after,
+	.form-Contact .checkbox:before,
+	.form-Contact .radio:after,
+	.form-Contact .radio:before {
+		content: '';
+		display: table;
+	}
+	.form-Contact .checkbox:after,
+	.form-Contact .radio:after {
+		clear: both;
+	}
+	.form-Contact .checkbox,
+	.form-Contact .radio {
+		zoom: 1;
+	}
+	.form-Contact .radio .form-title label{
+		width: 350px;
+	}
+	.form-Contact .textarea {
+		width: auto;
+		margin-top: 10px;
+	}
+	.form-Contact .textarea .form-title label{
+		width: auto;
+	}
+	.form-Contact .textarea textarea{
+		display: block;
+		width: 540px;
+		height: 84px;
+		font-size: 13px;
+		background: #fff;
+		border: 1px solid #dedede;
+		color: #3e3e3e;
+		padding: 6px 10px;
+		margin: 2px
+	}
+	.form-Contact .form-controls{
+		width: 564px;
+	}
+	.form-Contact input[type="submit"] {
+		margin:20px 0 0;
+		cursor: pointer;
+		background: url("/resources/media/images/submitbtn.png");
+		border: none;
+		width: 100px;
+		height: 26px;
+		text-indent: -9999px;
+		float: right;
+	}
+@media (max-width: 767px) {
+	.form-Contact label{
+		display: block;
+		float: none;
+		text-align: left;
+	}
+	.form-Contact .checkbox label,
+	.form-Contact .radio label{
+		margin-left: 30px;
+	}
+	.form-Contact .checkbox .form-title label,
+	.form-Contact .radio .form-title label{
+		margin-left: 0px;
+	}
+	.form-Contact input[type="text"],
+	.form-Contact .textarea textarea,
+	.form-Contact input#city[type="text"],
+	.form-Contact .States select,
+	.form-Contact .States+* input{
+		display: block;
+		width: 90%;
+		float: none;
+	}
+	.form-Contact .States
+	.form-Contact .States+*{
+		margin-top: 10px;
+	}
+	.form-Contact .form-controls {
+		width: 94%;
+	}
+}
+/* end New contact form styles */
+
+	
+	.frederica-realty-associates .form_container input[type="text"],
+	.frederica-realty-associates .form_container textarea { padding: 3px 10px; width: 180px; }
+	.frederica-realty-associates .form_container textarea {height: 50px;}
+	.frederica-realty-associates .form_container label {line-height: 220%; }
+		
+	.form_container .fieldNote {
+		margin: 0 0 0 3px;	
+		padding: 0;
+		color: #bbb !important;
+	}	
+	
+	.form_container .dropdown {
+		padding: 5px 4px;
+		border: 1px solid #dedede;
+		background: #fff !important;
+		color: #3e3e3e;
+		margin: 0px;
+		position: relative; top: 2px;
+	}			
+	
+	.form_container input[type="submit"] {
+		margin: 0;
+		cursor: pointer;
+		background: url("/resources/media/images/submitbtn.png");
+		border: none;
+		width: 100px;
+		height: 26px;
+		text-indent: -9999px;
+	}
+	
+	.contact .form_container input[type="submit"] { 
+		position: relative;
+		left: 465px;
+	}
+
+	.form_container input[type="submit"]:hover { background-position: 0px -26px; }
+	.form_container input[type="submit"]:active { background-position: 0px -52px; }
+	
+	.fieldSelected { /* background color of a selected field. */
+		background: transparent !important;
+		border-color: transparent !important;
+	}
+
+
+
+
+
+/* LOGIN FORM */	
+.loginElement {
+	padding-top: 20px;
+}	
+.loginElement p {
+	margin: 0 0 10px 0;
+	clear: both;
+}			
+.loginElement .error {
+	color: #993300;
+	font-size: 14px;
+}		
+	.loginElement label {
+		font-weight: bold;
+		display: block;
+		font-size: 14px;
+	}
+
+	.loginElement .username,
+	.loginElement .password {
+		font-size: 13px;
+		background: #fff;
+		border: 1px solid #dedede;
+		color: #3e3e3e;
+		padding: 6px 10px;
+		margin: 5px 0 10px;
+	}
+	
+	.loginElement .button {
+		height: 30px;
+		background: url(/resources/media/images/search-button-bg.gif) 0 0 repeat-x;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border: 1px solid #dedede;
+		color: #3e3e3e;
+		font-size: 11px;
+		text-transform: uppercase;
+		text-shadow: 1px 1px 1px #fff;
+		font-weight: bold;
+		margin: 0;
+	}
+		
+	.loginElement .forgot {
+		font-weight: bold;
+	}
+
+
+	
+	
+	
+	
+/* FIXING POPUP CONFIRMATION COLORS */
+.confirmation-content-message, 
+.confirmation-content-message * { 
+	color: #666 !important;
+}
+
+/* Content Images */
+#secPage #mainColumn .textElement img {
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+	-moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+	-webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+	margin: 5px 0px;
+}
+
+/* Gallery page restyling */
+.gallery .oneColumn #mainColumn { float: none; margin: 0 auto; width: 100%; padding-left: 24px; padding-right: 24px; box-sizing: border-box; }
+ul#gallery, ul#listings{ list-style: none; margin: 0px; padding: 0px; }
+ul#gallery {/*width: 874px;*/width:900px;overflow: hidden;margin:0 auto 16px;}
+ul#gallery li { float: left; width: 200px; height: 200px; padding: 0px; margin: 26px; }
+ul#gallery li a, div#gallery a { display: block; width: 200px; height: 200px; position: relative; background: url("/resources/media/images/gallery.png"); }
+ul#gallery li a:hover, div#gallery a:hover { background-position: 0px -200px; }
+
+ul#gallery li img, div#gallery img{ position: absolute; top: 12px; left: 18px; -moz-box-shadow: none !important; -webkit-box-shadow: none !important; box-shadow: none !important; }
+ul#gallery li span, div#gallery span { display: block; width: 170px; position: absolute; bottom: 13px; font-family: "Georgia", serif; color: #fff; font-size: 16px; font-style: italic; left: 15px; text-align: center; }
+
+ul#gallery li a.hide, div#gallery a.hide{ display: none; }
+
+ul#gallery li { width: 300px; height: 300px; padding: 0px; margin: 26px 0 26px 0; }
+ul#gallery li a { width: 300px; height: 300px; background: url("/resources/media/images/gallery_300p.png"); }
+ul#gallery li a:hover { background-position: 0px -300px; }
+ul#gallery li img { width: 250px; top: 17px; left: 23px; }
+ul#gallery li span { display: block; width: 100%; bottom: 18px; left: 0; }
+
+@media screen and ( max-width:967px ) {
+	ul#gallery { width:600px; }
+}
+@media screen and ( max-width:600px ) {
+	ul#gallery { width:100%; }
+	ul#gallery li { float: none; margin: 26px auto; }
+}
+/* @media screen and ( max-width:875px ) {
+	ul#gallery { width:748px; }
+}
+@media screen and ( max-width:767px ) {
+	ul#gallery { width:95%; }
+}
+*/
+
+/* Home Listings */
+ul#listings li { float: left; width: 300px; height: 270px; margin: 30px; padding: 0px; }
+ul#listings li a { font-size: 14px; font-family: "Georgia", Serif; text-decoration: none; color: #000; }
+ul#listings li a img { width: 300px;box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+-moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+-webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+margin: 5px 0px;}
+ul#listings li a .name { color: rgb(0, 0, 0);display: block; width: 250px; margin: 0px auto; text-align: center; font-style: italic; font-weight: bold;  }
+ul#listings li a .price { color: rgb(0, 0, 0);display: block; width: 250px; margin: 0px auto; text-align: center; }
+
+#listing { }
+#listing h1 { font-size: 24px; }
+#listing h2 { text-align: left; font-size: 20px;  border-bottom: 1px dotted #333; margin: 0px 0px 15px;  }
+#listing #photo { float: left; width: 465px; min-height: 465px; margin: 0px 30px 0px 0px; }
+#listing #photo img {box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); -moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); margin: 5px 0px;width: 100%;}
+#listing div.box a{ display: block; width: 465px; margin: 10px 0px; text-align: center;  padding: 10px 0px; background-color: #D6C7A9; color: #000; border: 1px solid #6d6d6d; }
+#listing #description{ float: left; width: 220px;  }
+#listing #description2{clear: both; }
+
+#listing #photos { margin: 0px; padding: 0px; list-style: none; }
+#listing #photos li { float: left; width: 100px; margin: 5px 10px; padding: 0px; }
+#listing #photos li a { }
+#listing #photos li a img {border: 3px solid #4f422f; width: 100px;box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); -moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+margin: 5px 0px; }
+#listing #photos li a img:hover {border: 3px solid #47a6eb;}
+
+#listing table, table.listings { width: 100%; color: #000; margin-bottom: 20px;}
+
+#listing table th, table.listings th{ text-align: right; font-weight: bold; padding: 5px 10px;}
+#listing table tr:nth-child(odd),
+table.listings tr:nth-child(odd) { background-color: #ead9ae; }
+#listing table tr:nth-child(even),
+table.listings tr:nth-child(even) { background-color: #D6C7A9; }
+
+table.listings th, table.listings td { text-align: left; padding: 5px; }
+
+span.overlay{ display: block; width: 291px; height: 20px; padding: 5px 0px; position: absolute; bottom: 7px; left: 0px; color: #fff; font-family: "Georgia", serif; font-style: italic; font-weight: bold; text-align: center; background-color: #333; filter:alpha(opacity=80); opacity:0.8; }
+
+.brochure { margin-top: 190px; text-align: center; }
+
+
+/* MAPS STYLES */
+
+.resortmap .oneColumn #mainColumn { margin:0; width:100%; padding:0; }
+.resortmap #mapOuter { width:100%; }
+.resortmap .contents img {
+		box-shadow: none;
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
+		margin: 0;
+	}	
+.resortmap #header { background:url(/resources/media/images/maps/header.png) no-repeat top center; height:111px; }
+.resortmap #header .close-btn { position:absolute; right:40px; top:30px; display:block; width:51px; height:49px; background:url(/resources/media/images/maps/close-icon.png) no-repeat 0 0; text-indent:-9999px; overflow:hidden; } 
+.resortmap #pageBottom { display:none; }
+	
+#header .maps-nav { padding-top:5px; }
+#header .maps-nav a { background:url(/resources/media/images/icons/map-shadow.png) no-repeat center top; float:left; width:45px; height:55px; font-size:14px; color:#333; font-weight:bold; text-decoration:none; text-align:center; margin-left:17px; } 
+#header .maps-nav a.maps-rookery { width:60px; }
+#header .maps-nav a span { display:block; width:36px; height:36px; margin:0 auto; }
+#header .maps-nav a.maps-river span { background:url(/resources/media/images/icons/map-river.png) no-repeat 0 0; }
+#header .maps-nav a.maps-marsh span { background:url(/resources/media/images/icons/map-marsh.png) no-repeat 0 0; }
+#header .maps-nav a.maps-lake span { background:url(/resources/media/images/icons/map-lake.png) no-repeat 0 0; }
+#header .maps-nav a.maps-golf span { background:url(/resources/media/images/icons/map-golf.png) no-repeat 0 0; }
+#header .maps-nav a.maps-rookery span { background:url(/resources/media/images/icons/map-rookery.png) no-repeat 0 0; }
+#header .maps-nav a.active, #header .maps-nav a:hover { background:none; }
+#header .maps-nav a.active span, #header .maps-nav a:hover span { background-position:5px 0; margin-top:3px; }
+#header .maps-nav .label-listings, #header .maps-nav .labels span { font-family:Calibri; font-size:12px; font-style:italic; line-height:16px; }
+#header .maps-nav .label-listings { display:block; margin-bottom:5px; }
+#header .maps-nav .labels { float:left; margin-left:17px; }
+#header .maps-nav .labels span { display:block; padding-left:16px; }
+#header .maps-nav .labels span.label-lots { background: url(/resources/media/images/maps/label-lots.png) no-repeat left center; }
+#header .maps-nav .labels span.label-homes { background: url(/resources/media/images/maps/label-homes.png) no-repeat left center; }
+
+.restateinfo { width:400px;}
+.restateinfo-header { width:248px; min-height:29px; line-height:29px; padding-left:142px; padding-right:10px; background:#E2D4AB url(/resources/media/images/maps/infowindow_logo.png) no-repeat left top; color:#333; font-size:18px; font-family:Calibri; text-align:right; font-style:italic; font-weight:bold; }
+.restateinfo-text { width:380px; padding:10px; background:url(/resources/media/images/maps/infowindow_txt_bgr.png) repeat-y 0 0; color:#333; font-family:Calibri; }
+.restateinfo-text .restateinfo-desc { width:180px; float:left; font-size:12px; }
+  .restateinfo-text.restateinfo-text-noimage .restateinfo-desc { width:100%; }
+  .restateinfo-text.restateinfo-text-noimage .restateinfo-desc td.price-label, .restateinfo-text.restateinfo-text-noimage .restateinfo-desc .acrege { width:30%; }
+.restateinfo-text .restateinfo-more { width:193px; float:right; }
+.restateinfo-text .label, .restateinfo-text tr>td { font-weight:bold; }
+.restateinfo-text td { font-size:12px; font-family:Calibri; }
+.restateinfo-text .address { font-family: Georgia, "Century Schoolbook L", "Times New Roman", serif; font-size:16px; font-weight:bold; font-style:italic; display:block; }
+.restateinfo-text .restateinfo-more img { display:block; width:190px; height:125px; overflow:hidden; margin-bottom:10px; }
+.restateinfo-text .restateinfo-btn { display:block; width:193px; height:29px; line-height:29px; background:url(/resources/media/images/maps/infowindow_btn.png) no-repeat 0 0; text-align:center; color:#fff; text-decoration:none; font-family:Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif; font-size:16px; font-weight:bold; }
+.restateinfo-footer { background:url(/resources/media/images/maps/infowindow_btm_bgr.png) no-repeat left top; width:400px; height:23px; }
+.alignLeft { float:left; }
+.alignRight { float:right; }
+
+
+.golf-course-home-sites div.box {overflow: hidden;}
+.golf-course-home-sites div.box a{ display: block; width: 50%; margin: 10px auto; text-align: center;  padding: 10px 0px; background-color: #D6C7A9; color: #000; border: 1px solid #6d6d6d; }
+
+@media (max-width: 550px) {
+	.golf-course-home-sites div.box a{ width: 100%;float: none; }
+}

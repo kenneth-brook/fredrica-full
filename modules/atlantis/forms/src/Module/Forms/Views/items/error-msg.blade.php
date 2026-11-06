@@ -1,0 +1,1 @@
+<span class="error-msg a3-error-wrap">{!! $error !!}</span>

@@ -1,0 +1,100 @@
+ul#listings.lots {
+    overflow: hidden
+}
+
+ul#listings.lots li {
+    width: 100%;
+    margin: 12px 0;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #4c4d3c;
+    float: none;
+    clear: both;
+    overflow: hidden
+}
+
+ul#listings.lots li:last-child {
+    border: 0
+}
+
+ul#listings.lots li h3 {
+    margin-bottom: 0;
+    text-align: left
+}
+
+ul#listings.lots li h3 a {
+    font-size: 20px
+}
+
+ul#listings.lots li h3 a:hover {
+    text-decoration: underline
+}
+
+ul#listings.lots li .listing-content {
+    position: relative;
+    display: inline-block;
+    max-width: calc(100% - 150px);
+    vertical-align: top;
+}
+
+ul#listings.lots li .listing-content p {
+    margin-bottom: 0
+}
+
+ul#listings.lots li .listing-content .btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: auto;
+    padding: 4px 14px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    background-color: #d6c7a9;
+    color: #000;
+    border: 1px solid #6d6d6d
+}
+
+ul#listings.lots li .listing-content .btn:hover {
+    background-color: #cebc98
+}
+
+ul#listings.lots li .listing-photo {
+    width: 130px;
+    margin-right: 12px;
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+ul#listings.lots li .listing-photo img {
+    display: block;
+    width: 100%
+}
+
+ul#listings.lots li .listing-photo span a {
+    font-family: Arial, Helvetica, Sans-serif;
+    font-size: 12px;
+    text-decoration: underline
+}
+
+ul#listings.lots li .listing-photo span a:hover {
+    text-decoration: none
+}
+
+@media only screen and (max-width:767px) {
+    ul#listings.lots li {
+        text-align: left
+    }
+}
+
+@media only screen and (max-width:599px) {
+    ul#listings.lots li {
+        text-align: left
+    }
+    ul#listings.lots li .listing-content .btn {
+        margin-top: 6px;
+        position: static;
+        float: left
+    }
+}

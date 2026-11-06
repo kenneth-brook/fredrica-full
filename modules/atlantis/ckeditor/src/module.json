@@ -1,0 +1,18 @@
+{
+    "name": "CKEditor",
+    "author": "Atlantis CMS",
+    "version": "1.1.8",
+    "adminURL": null,
+    "icon": "icon icon-Pencil",
+    "path": "atlantis\/ckeditor\/src",
+    "moduleNamespace": "Module\\CKEditor",
+    "seedNamespace": "Module\\CKEditor\\Seed",
+    "seeder": "\\Module\\CKEditor\\Seed\\CKEditorSeeder",
+    "provider": "Module\\CKEditor\\Providers\\CKEditorServiceProvider",
+    "migration": "modules\/atlantis\/ckeditor\/src\/Module\/CKEditor\/Migrations\/",
+    "extra": {
+        "type": "editor",
+        "editorClass": "Module\\CKEditor\\CKEditorBuilder"
+    },
+    "description": "The famous WYSIWYG editor."
+}

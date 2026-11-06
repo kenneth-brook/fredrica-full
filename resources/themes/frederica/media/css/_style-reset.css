@@ -1,0 +1,169 @@
+
+html, body, div, span, applet, object, iframe,
+p, blockquote, pre, a, abbr, acronym, address, 
+big, cite, code, del, dfn, font, img, ins, kbd, q, 
+s, samp, small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dd, dl, dt, li, ol, ul, fieldset, 
+form, label, legend, h1, h2, h3, h4, h5, h6, hr {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	text-decoration: none;
+	font-size: 100%;
+	font-family: inherit;
+}
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+	body { 
+		line-height: 1.5em;	
+		color: black;
+		background: white;
+	}
+	:focus {
+		-moz-outline:0;
+		outline:0;
+		outline-offset:0;
+	}	
+	a img {
+		border: 0;
+	}
+
+
+
+/* tables */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+	caption, th, td {
+		text-align: left;
+	}
+
+
+
+/* misc */
+ol, ul {
+	list-style: none;
+}
+
+ins {
+	text-decoration: none;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, 
+blockquote:after, 
+q:before, 
+q:after {
+	content: '';
+	content: none;
+}
+
+
+
+
+/* clearing */
+.clear {
+	clear: both;
+	height: 1px;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+/* GENERAL */
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+dl { 
+	margin: 0 0 1.5em 0; 
+}
+	dl dt {
+		font-weight: bold; 
+	}
+	dl dd { 
+		margin-left: 1.5em;
+	}	
+
+pre, code { 
+	margin: 1.5em 0; 
+	white-space: pre; 
+}
+
+pre, code, tt { 
+	font: 1em 'andale mono', 'lucida console', monospace; 
+	line-height: 1.5; 
+}
+
+abbr, acronym { 
+	border-bottom: 1px dotted #666; 
+}
+
+address { 
+	margin: 0 0 1.5em; 
+	font-style: italic; 
+}
+
+del { 
+	color: #666; 
+}
+
+blockquote { 
+	margin: 1.5em; 
+}
+
+strong { 
+	font-weight: bold; 
+}
+
+em, dfn { 
+	font-style: italic; 
+}
+
+dfn { 
+	font-weight: bold; 
+}
+
+sup, sub { 
+	line-height: 0; 
+}
+
+label { 
+	font-weight: bold; 
+}
+
+fieldset { 
+	padding:1.4em; 
+	margin: 0 0 1.5em 0; 
+	border: 1px solid #ccc; 
+}
+
+legend { 
+	font-weight: bold; 
+	font-size:1.2em; 
+}
+
+input.text, 
+input.title,
+textarea, 
+select {
+  margin: 0.5em 0;
+  border: 1px solid #bbb;
+}
